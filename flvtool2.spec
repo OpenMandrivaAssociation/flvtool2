@@ -1,4 +1,4 @@
-%define name    flvtool2
+%define name	flvtool2
 %define version 1.0.6
 %define release %mkrel 1
 
@@ -35,6 +35,9 @@ rm -rf $RPM_BUILD_ROOT
 ruby setup.rb install --prefix=$RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/doc/flvtool2
 cp LICENSE CHANGELOG $RPM_BUILD_ROOT%{_datadir}/doc/flvtool2/
+
+%clean
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)

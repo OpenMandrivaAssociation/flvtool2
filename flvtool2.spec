@@ -9,7 +9,7 @@ Summary:	Manipulation tool for Macromedia Flash Video files (FLV)
 
 Group:		Video
 License:	BSD
-URL:		http://www.inlet-media.de/flvtool2
+URL:		https://www.inlet-media.de/flvtool2
 Source:		%{name}-%{version}.tgz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 BuildArch:	noarch

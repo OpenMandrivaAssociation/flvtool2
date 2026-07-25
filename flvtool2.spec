@@ -1,6 +1,6 @@
 %define name	flvtool2
 %define version 1.0.6
-%define release %mkrel 2
+%define release 3
 
 Name:		%{name}
 Version:	%{version}
